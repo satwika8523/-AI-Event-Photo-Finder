@@ -1,0 +1,66 @@
+
+# ==============================
+# Python Virtual Environment
+# ==============================
+venv/
+.venv/
+env/
+
+# ==============================
+# Python Cache Files
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ==============================
+# Private Event Photos
+# ==============================
+event_storage/
+event_storage_backup/
+event_storage_new/
+dataset/event_photos/
+dataset/test_faces/
+
+# ==============================
+# Face Embeddings
+# ==============================
+dataset/face_embeddings/
+*.npy
+
+# ==============================
+# Database Files
+# ==============================
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+*.sqlite
+*.sqlite3
+
+# ==============================
+# AI Model Files
+# ==============================
+models/
+
+# ==============================
+# Environment Variables and Secrets
+# ==============================
+.env
+.env.*
+
+# ==============================
+# IDE Settings
+# ==============================
+.vscode/
+
+# ==============================
+# Operating System Files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Logs and Temporary Files
+# ==============================
+*.log
+*.tmp

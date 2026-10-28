@@ -1,0 +1,7 @@
+
+streamlit
+opencv-contrib-python
+insightface
+onnxruntime
+numpy
+pillow
